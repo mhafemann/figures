@@ -32,17 +32,21 @@ const figures = require('@mhafemann/figures');
 
 | Name | Symbol | Windows Fallback |
 | - | - | - |
-|tick | '✔' | '√' |
-|info | 'ℹ' | 'i' |
-|warning | '⚠' | '‼' |
-|cross | '✘' | '×' |
-|squareSmall | '◻' | '□' |
-|squareSmallFilled | '◼' | '■' |
-|circle | '◯' | '( )' |
-|circleFilled | '◉' | '(*)' |
-|bullet | '●' | '>>' |
-|pointer | '❯' | '>' |
-|arrowUp | '↑' | '^' |
-|arrowDown | '↓' | 'V' |
-|arrowLeft | '←' | '->' |
-|arrowRight | '→' | '<-' |
+|arrowDown|'↓'|'↓'|
+|arrowLeft|'←'|'←'|
+|arrowRight|'→'|'→'|
+|arrowUp|'↑'|'↑'|
+|bullet|'●'|'●'|
+|circle|'◯'|'( )'|
+|circleFilled|'◉'|'(*)'|
+|cross|'✘'|'×'|
+|heart|'♥'|'♥'|
+|home|'⌂'|'⌂'|
+|info|'ℹ'|'i'|
+|line|'-'|'-'|
+|lineVertical|'│'|'│'|
+|pointer|'❯'|'>'|
+|squareSmall|'◻'|'◻'|
+|squareSmallFilled|'◼'|'◼'|
+|tick|'✔'|'√'|
+|warning|'⚠'|'‼'|
