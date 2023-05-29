@@ -23,6 +23,10 @@
     "name": "Mark Hafemann",
     "email": "markhafemann1@gmail.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mhafemann/figures.git"
+  },
   "scripts": {
     "prebuild": "rm -rf dist && mkdir dist",
     "build": "esbuild src/index.js --bundle --external:process --platform=node --target=node16 --outfile=dist/index.cjs",
