@@ -11,8 +11,8 @@ This package is a customized version of the [figures](https://github.com/sindres
 
 ## Installation
 
-```bash
-npm i @mhafemann/figures
+```zsh
+pnpm i @mhafemann/figures
 ```
 
 ## Usage
