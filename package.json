@@ -35,10 +35,8 @@
   "scripts": {
     "prebuild": "rm -rf dist && mkdir dist",
     "build": "esbuild src/index.js --bundle --external:process --platform=node --target=node16 --outfile=dist/index.cjs",
-    "postbuild": "agadoo src/index.js",
     "pretypes": "rm -rf types && mkdir types",
-    "types": "tsc",
-    "prepublishOnly": "npm run build && npm run types && git log --pretty='- %s' > CHANGELOG.md"
+    "types": "tsc"
   },
   "devDependencies": {
     "@types/node": "^20.2.1",
