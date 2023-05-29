@@ -1,3 +1,8 @@
+- updated gitignore to include dist
+- updated readme
+- updated .vscode setting
+- added prepublish script
+- added changelog
 - added badge for install size.
 - updated files field
 - version bump
