@@ -45,8 +45,6 @@ const fallbackSymbols = {
   circleFilled: '(*)',
   bullet: '>>',
   pointer: '>',
-  line: '-',
-  lineVertical: '|',
   arrowUp: '^',
   arrowDown: 'V',
   arrowRight: '->',
