@@ -17,38 +17,40 @@ function isUnicodeSupported() {
   );
 }
 
-const mainSymbols = {
-  tick: '✔',
-  info: 'ℹ',
-  warning: '⚠',
-  cross: '✘',
-  squareSmall: '◻',
-  squareSmallFilled: '◼',
-  circle: '◯',
-  circleFilled: '◉',
-  bullet: '●',
-  pointer: '❯',
-  arrowUp: '↑',
+const common = {
   arrowDown: '↓',
   arrowLeft: '←',
   arrowRight: '→',
+  arrowUp: '↑',
+  bullet: '●',
+  heart: '♥',
+  home: '⌂',
+  line: '-',
+  lineVertical: '│',
+  squareSmall: '◻',
+  squareSmallFilled: '◼',
+};
+
+const mainSymbols = {
+  ...common,
+  circle: '◯',
+  circleFilled: '◉',
+  cross: '✘',
+  info: 'ℹ',
+  pointer: '❯',
+  tick: '✔',
+  warning: '⚠',
 };
 
 const fallbackSymbols = {
-  tick: '√',
-  info: 'i',
-  warning: '‼',
-  cross: '×',
-  squareSmall: '□',
-  squareSmallFilled: '■',
+  // ...common,
   circle: '( )',
   circleFilled: '(*)',
-  bullet: '>>',
+  cross: '×',
+  info: 'i',
   pointer: '>',
-  arrowUp: '^',
-  arrowDown: 'V',
-  arrowRight: '->',
-  arrowLeft: '<-',
+  tick: '√',
+  warning: '‼',
 };
 
 const shouldUseMain = isUnicodeSupported();
