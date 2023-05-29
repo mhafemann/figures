@@ -1,0 +1,9 @@
+- added badge for install size.
+- updated files field
+- version bump
+- optimized figure objects
+- updated figures table
+- removed un-used fallback symbols
+- updated added badges / figure table
+- added repository field
+- first commit
