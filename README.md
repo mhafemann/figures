@@ -1,5 +1,5 @@
 # @mhafemann/figures
-[![GitHub](https://img.shields.io/github/package-json/v/mhafemann/figures)](https://www.npmjs.com/package/@mhafemann/figures)  [![license](https://img.shields.io/github/license/mhafemann/figures)](https://github.com/mhafemann/figures/blob/main/LICENSE)
+[![GitHub](https://img.shields.io/github/package-json/v/mhafemann/figures)](https://www.npmjs.com/package/@mhafemann/figures) [![license](https://img.shields.io/github/license/mhafemann/figures)](https://github.com/mhafemann/figures/blob/main/LICENSE) ![Minified / Gzipped](https://img.shields.io/badge/Min%2FGzip%20-1.19%20KiB%20-blue)
 
 This package provides Unicode symbols with Windows-compatible fallbacks.
 
@@ -30,23 +30,23 @@ const figures = require('@mhafemann/figures');
 
 ## Figures
 
-| Name | Symbol | Windows Fallback |
-| - | - | - |
-|arrowDown|'↓'|'↓'|
-|arrowLeft|'←'|'←'|
-|arrowRight|'→'|'→'|
-|arrowUp|'↑'|'↑'|
-|bullet|'●'|'●'|
-|circle|'◯'|'( )'|
-|circleFilled|'◉'|'(*)'|
-|cross|'✘'|'×'|
-|heart|'♥'|'♥'|
-|home|'⌂'|'⌂'|
-|info|'ℹ'|'i'|
-|line|'-'|'-'|
-|lineVertical|'│'|'│'|
-|pointer|'❯'|'>'|
-|squareSmall|'◻'|'◻'|
-|squareSmallFilled|'◼'|'◼'|
-|tick|'✔'|'√'|
-|warning|'⚠'|'‼'|
+| Name              | Symbol | Windows Fallback |
+|-------------------|--------|------------------|
+| arrowDown         | ↓      | ↓                |
+| arrowLeft         | ←      | ←                |
+| arrowRight        | →      | →                |
+| arrowUp           | ↑      | ↑                |
+| bullet            | ●      | ●                |
+| circle            | ◯      | ( )              |
+| circleFilled      | ◉      | (*)              |
+| cross             | ✘      | ×                |
+| heart             | ♥      | ♥                |
+| home              | ⌂      | ⌂                |
+| info              | ℹ      | i                |
+| line              | -      | -                |
+| lineVertical      | │      | │                |
+| pointer           | ❯      | >                |
+| squareSmall       | ◻      | ◻                |
+| squareSmallFilled | ◼      | ◼                |
+| tick              | ✔      | √                |
+| warning           | ⚠      | ‼                |
